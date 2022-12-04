@@ -1245,11 +1245,3 @@ def main1(d: dict) -> str:
 main1(main(string))
 
 
-# http://www.pythonchallenge.com/pc/def/ocr.html
-
-# in the above url, try to replace ocr with answer
-
-# you will get something like this
-
-# http://www.pythonchallenge.com/pc/def/equality.html
-

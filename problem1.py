@@ -29,14 +29,3 @@ print("\n")
 # now apply to url
 print(main("map"))
 
-
-# http://www.pythonchallenge.com/pc/def/map.html
-
-# in the above url, try to replace map with answer
-
-# you will get something like this
-
-# http://www.pythonchallenge.com/pc/def/ocr.html
-
-
-

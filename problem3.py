@@ -1251,4 +1251,26 @@ KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 """
 
-print(string)
+# Hint
+
+# print(ord("a"))
+# Output: 97
+
+# print(chr(98))
+#  Output: b
+
+
+def main(s: str) -> str:
+    global c
+    for i in range(4, len(s)-4):
+        if ord(s[i]) >= 97 and ord(s[i]) <= 122:
+            c=0
+            for k in range(1, 4):
+                if (ord(s[i-k]) >= 65 and ord(s[i-k]) <= 90) and (ord(s[i+k]) >= 65 and ord(s[i+k]) <= 90):
+                    c+=1
+            if c == 3:
+                for l in range(1):
+                    if (ord(s[i-4]) >= 97 and ord(s[i-4]) <= 122) and (ord(s[i+4]) >= 97 and ord(s[i+4]) <= 122):
+                        print(s[i], end="")
+
+main(string)
