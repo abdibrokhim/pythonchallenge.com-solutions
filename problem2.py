@@ -1237,7 +1237,7 @@ print("\n")
 
 # let's print all chars with freqs = 1
 
-def main1(d: dict) -> str:
+def main1(d: dict):
     for i, j in d.items(): 
         if j == 1:
             print(i, end="")

@@ -1260,7 +1260,7 @@ PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 #  Output: b
 
 
-def main(s: str) -> str:
+def main(s: str):
     global c
     for i in range(4, len(s)-4):
         if ord(s[i]) >= 97 and ord(s[i]) <= 122:
